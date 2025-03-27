@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    background-color: blue;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 50px;
+    text-shadow: 2px 3px 15px rgba(5, 5, 5, 20);
+}
+
+fieldset {
+    border: 2px solid #00bcd4;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+legend {
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+a:visited {
+    color: #546780; 
+}
+a:active {
+    color: red; 
+}
