@@ -1,0 +1,28 @@
+/* corpo do texto */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* cabeçalho */
+header {
+    font-size: 18px;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* parágrafos */
+p {
+    font-size: 18px; 
+}
+
+/* itens de navegação */
+nav ul li a {
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+a {
+    font-size: 18px;
+    font-weight: bold;
+}

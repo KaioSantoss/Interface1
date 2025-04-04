@@ -1,0 +1,40 @@
+/* corpo do texto */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* cabeçalhos h2 e h3 */
+h2, h3 {
+    font-family: "Boldonse", system-ui;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* cabeçalho h1 */
+h1 {
+    font-size: 60px;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* links */
+a {
+    font-weight: bold;
+}
+
+/* itens da lista */
+ul li {
+    font-size: 18px; 
+}
+
+/* itens de navegação */
+nav ul li a {
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
+/* parágrafos */
+p {
+    font-size: 18px; 
+}

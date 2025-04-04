@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <link rel="stylesheet" href="../Css/formulario.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MetaGear Formulario</title>
+    <title>MetaGear Formulário</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../Fontes/Fformulario.css">
+    <link rel="stylesheet" href="../Estilos CSS/formulario.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../Imagens/favicon-16x16.png" type="image/x-icon">
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="./pagina1.html">Imagens</a></li>
+            <li><a href="./pagina2.html">Produtos</a></li>
+            <li><a href="./pagina3.html">Vídeos</a></li>
+            <li><a href="./formulario.html">Cadastro</a></li>
+        </ul>
+    </nav>
+
 </head>
+
 <body>
-<header id="topo">
-    <h1>MetaGear - Cadastro</h1>
-</header>
+    <header id="topo">
+        <h1>Faça o seu Cadastro</h1>
+    </header>
 
     <form action="#" method="post">
+        <!-- Dados Pessoais -->
         <fieldset>
             <legend>Dados Pessoais</legend>
             <label for="nome">Nome Completo:</label>
@@ -23,35 +51,43 @@
             <label for="telefone">Telefone:</label>
             <input type="tel" id="telefone" name="telefone" required>
         </fieldset>
-        
+
+        <!-- Preferências de Compra -->
         <fieldset>
             <legend>Preferências de Compra</legend>
             <p>Escolha seu tipo de produto favorito:</p>
             <input type="radio" id="computadores" name="produto_favorito" value="computadores" required>
             <label for="computadores">Computadores</label>
+
             <input type="radio" id="consoles" name="produto_favorito" value="consoles" required>
             <label for="consoles">Consoles</label>
+
             <input type="radio" id="acessorios" name="produto_favorito" value="acessorios" required>
             <label for="acessorios">Acessórios</label>
         </fieldset>
-        
+
+        <!-- Marcas Preferidas -->
         <fieldset>
             <legend>Marcas Preferidas</legend>
             <input type="checkbox" id="marca1" name="marca" value="Redmi" required>
             <label for="marca1">Redmi</label>
+
             <input type="checkbox" id="marca2" name="marca" value="Microsoft" required>
             <label for="marca2">Microsoft</label>
+
             <input type="checkbox" id="marca3" name="marca" value="Apple" required>
             <label for="marca3">Apple</label>
+
             <input type="checkbox" id="marca4" name="marca" value="Samsung" required>
-            <label for="marca4">Samsumg</label>
+            <label for="marca4">Samsung</label>
         </fieldset>
-        
+
+        <!-- Dados Adicionais -->
         <fieldset>
             <legend>Dados Adicionais</legend>
             <label for="data">Data de nascimento:</label>
             <input type="date" id="data" name="data_nascimento" required>
-            
+
             <label for="cor">Cor favorita:</label>
             <input type="color" id="cor" name="cor">
 
@@ -62,29 +98,32 @@
                 <option value="avancado">Avançado</option>
             </select>
         </fieldset>
-        
+
+        <!-- Configuração da Conta -->
         <fieldset>
             <legend>Configuração da Conta</legend>
             <label for="senha">Crie sua senha:</label>
             <input type="password" id="senha" name="senha" required>
         </fieldset>
-        
+
         <button type="reset">Limpar</button>
         <button type="submit">Cadastrar</button>
     </form>
 
-<br /> <!--quebra de linha-->
+    <br />
+    <br />
 
-<!--ancora-->
-<a href="../index.html">
-    Tela Inicial
-</a>
+    <footer>
+        <div class="footer-icons">
+            <a href="../index.html">Tela Inicial</a>
+            <a href="../Paginas/SuporteTc.html">Suporte Técnico</a>
+            <a href="#topo">Voltar ao topo</a>
+        </div>
 
-<br /> <!--quebra de linha-->
-
-<a href="#topo">
-    Voltar ao topo
-</a>
-
+        <div class="footer-info">
+            <p>&copy; 2025 MetaGear - Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
+
 </html>

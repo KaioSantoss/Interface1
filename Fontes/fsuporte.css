@@ -1,0 +1,12 @@
+/* corpo do texto */ 
+body{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* itens de navegação */
+nav ul li a {
+  font-size: 18px; 
+  font-weight: bold; 
+}

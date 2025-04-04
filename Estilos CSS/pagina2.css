@@ -1,0 +1,137 @@
+/* Corpo da pagina*/
+body {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* titulo principal */
+header {
+    background-color: #380081;
+    color: white;
+    padding: 18px;
+}
+
+/* Títulos */
+h2 {
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+/* Tabelas */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+td {
+    color: #000000;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #380081;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* links */
+
+a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #566579;
+}
+
+a:active {
+    color: rgb(0, 68, 255);
+}
+
+/* Rodapé */
+footer {
+    background: #380081;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 8px;
+}
+
+footer div a {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a {
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* Menu */
+nav {
+    background-color: #000000;
+    padding: 18px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: all 0.5s ease;
+    border-radius: 8px;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+    color: #000000;
+}
+
+/* Menu Responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul li {
+        width: 100%;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: 15px;
+    }
+}

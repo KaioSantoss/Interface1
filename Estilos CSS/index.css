@@ -1,0 +1,146 @@
+/* corpo da página */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Rodapé */
+footer {
+    background: #1f1f1f;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.footer-icons img {
+    width: 30px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+/* Banner */
+.imagem-header {
+    background-image: url("../Imagens/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* Título principal (h1) */
+h1 {
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 18px;
+    text-shadow: 8px 8px 20px rgba(10, 10, 10, 20);
+}
+
+/* Subtítulos (h2) */
+h2 {
+    background-color: #00b0e6;
+    color: #ffffff;
+    padding: 18px;
+    border-radius: 15px;
+    text-shadow: 2px 3px 15px rgba(0, 0, 0, 10);
+}
+
+/* links */
+a {
+    color: #00bcd4;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #546780;
+}
+
+a:active {
+    color: rgb(0, 68, 255);
+}
+
+/* Listas */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Parágrafos */
+p {
+    line-height: 1.8;
+    text-align: justify;
+    padding: 10px;
+    border-left: 5px solid #00bcd4;
+}
+
+/* Menu */
+nav {
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: all 0.5s ease;
+    border-radius: 8px;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+    color: #000000;
+}
+
+/* Menu Responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul li {
+        width: 100%;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: 15px;
+    }
+}
